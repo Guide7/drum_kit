@@ -1,0 +1,110 @@
+body{
+    background-color: #5C124F;
+}
+
+img{
+    position: absolute;
+    left: 20em;
+    top: 5em;
+    height: 30rem;
+    width: 50rem;
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%,-50%);
+    background-color: #969296;
+    border-radius: 0.5em;
+    border-color: black;
+    border-style: solid;
+    border-width: 0.5em;
+    height: 75%;
+    width: 75%;
+}
+
+.container::after{
+    content: "Digital Drumkit!";
+    position: absolute;
+    color: black;
+    font-family: monospace;
+    font-size: 5rem;
+    margin-top: -20%;
+    margin-left: 26%;
+    text-shadow: 0.01em 0.01em 0.3em #D721B8;
+}
+
+.keybinding{
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.startgame{
+    position: absolute;
+    left: 70rem;
+    top: 17rem;
+    height: 5rem;
+    width: 10rem;
+    background-color: #646262;
+    border-radius: 0.5em;
+    border-color: black;
+    border-style: solid;
+    border-width: 0.1em;
+    font-family: monospace;
+    font-size: 2rem;
+}
+
+.startgame:hover{
+    border-width: 0.2em;
+    text-decoration: underline;
+}
+
+.box1, .box2, .box3, .box4, .box5{
+    position: absolute;
+    height: 2.5rem;
+    width: 5rem;
+    background-color: #646262;
+    border-radius: 0.5em;
+    border-color: black;
+    border-style: solid;
+    border-width: 0.1em;
+    font-family: monospace;
+    font-size: 1rem;
+    display: none;
+}
+
+.box1{
+    left: 20rem;
+    top: 23rem;
+    display: none;
+    text-align: center;
+}
+
+.box2{
+    left: 30rem;
+    top: 23rem;
+    display: none;
+    text-align: center;
+}
+
+.box3{
+    left: 40rem;
+    top: 23rem;
+    display: none;
+    text-align: center;
+}
+
+.box4{
+    left: 50rem;
+    top: 23rem;
+    display: none;
+    text-align: center;
+}
+
+.box5{
+    left: 60rem;
+    top: 23rem;
+    display: none;
+    text-align: center;
+}
